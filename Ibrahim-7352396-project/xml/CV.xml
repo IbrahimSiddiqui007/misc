@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="CVStyle.xsl"?>
+<CV>
+    <personal>
+        <Name>Ibrum Siddiqui</Name>
+        <Email>Ibrahim2003march@gmail.com</Email>
+        <about>IM a dope dud</about>
+    </personal>
+</CV>
+<!--
+<CV>
+    <personal>
+        <Name>Ibrum Siddiqui</Name>
+        <Email>Ibrahim2003march@gmail.com</Email>
+        <about>IM a dope dud</about>
+    </personal>
+    <Education>
+        <history>I started off my education in the UAE, where I studied for the first 9 years, after which I moved to South Africa </history>
+        <schools></schools>
+        <curriculum></curriculum>
+    </Education>
+    <Contact>
+        <Email></Email>
+        <about></about>
+    </Contact>
+    <Experience>
+        <title></title>
+        <date></date>
+        <description></description>
+    </Experience>
+    <Experience>
+        <title></title>
+        <date></date>
+        <description></description>
+    </Experience>
+    <Experience>
+        <title></title>
+        <date></date>
+        <description></description>
+    </Experience>
+    <Hobbies>
+        <skills></skills>
+    </Hobbies>
+    
+</CV>
+-->

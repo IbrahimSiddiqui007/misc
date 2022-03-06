@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body{
+    background-color: #1f1f1f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+
+.Nbar {
+    position: fixed;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    padding: 30px 0px; 
+}
+
+.Nbar .navmenu li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.5s ease-in;
+
+}
+
+.Nbar .navmenu li a:hover{
+    color: #00eeff;
+}
+
+.Nbar .navmenu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Nbar .logo a{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.Nbar .logo a .blue{
+    color:#00eeff;
+    transition: all 0.32s ease-in;
+}
+
+.Mwidth{
+    max-width: 2560px;
+    padding: 0 60px;
+    margin: auto;
+}
+
+.Nbar .Mwidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.HPage{
+    display: flex;
+    background: #1f1f1f;
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    align-items: center;
+}
+
+.HPage .Mwidth{
+    margin: auto 0 auto 25%;
+}
+
+.HPage .HPGContent .T1{
+    font-size: 30px;
+}
+
+.HPage .HPGContent .T2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.HPage .HPGContent .T3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.HPage .HPGContent .T3 span{
+    color: #00eeff;
+    font-weight: 500;
+}
+
+.Mbtn{
+    color: #00eeff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.Bout{
+    padding-top: 300px;
+    padding-left: 50px;
+    color: white;
+
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 300px;
+    height: 3px;
+    background: #00eeff;
+    transform: translateX(-50%);
+}
+
+section .title::after{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 20px;
+    padding:5px;
+    color: white;
+    background: #1f1f1f;
+    transform: translateX(-50%);
+}
+
+.Bout .AContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Bout .AContent .CRight{
+    width: 45%;
+}
+
+.Bout .AContent .CRight img{
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin: 0 200px;
+}
+
+.Bout .AContent .Cleft{
+    width: 55%;
+}
+
+.Bout .AContent .Cleft p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Bout .AContent .Cleft .TXT2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.Bout .AContent .Cleft .TXT2 span{
+    color: #00eeff;
+}
+
+.Bout .title::after{
+    content: "Who Am I?";
+}
+
+.skills{
+    padding-top: 300px;
+}
+
+.skills .title::after{
+    content: "What Am I Good At?";
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    padding-top: 100px;
+    margin: 0 -5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.H1S{
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.H2S{
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.card .sp{
+    font-size: 20px;
+}
+
+.card h4{
+    color: #00eeff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.Hobbies{
+    padding-top: 300px;
+}
+
+.Hobbies .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 500px;
+    height: 3px;
+    background: #00eeff;
+    transform: translateX(-50%);
+
+}
+
+.Hobbies .title::after{
+    content: "What do I like to Do in my Free Time?";
+}
+
+.ContactMe{
+    padding-top: 300px;
+}
+
+.ContactMe .CContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.ContactMe .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 400px;
+    height: 3px;
+    background: #00eeff;
+    transform: translateX(-50%);
+}
+
+.ContactMe .title::after{
+    content: "Want to get in touch with me?";
+}
+
+.ContactMe .CContent .CRight{
+    width: 50%;
+    padding-left: 100px;
+    padding-bottom: 515px;
+}
+
+.ContactMe .CContent .Cleft{
+    width: 50%;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 200px;
+}
+
+@media (max-width:947px){
+    .Mwidth{
+        padding: 0px 50px;
+    }
+    .Mbtn{
+        display: block;
+        z-index: 947px;
+    }
+    .Nbar .navmenu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100;
+        top: 0;
+        background: #141414;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.5s ease;
+    }
+    .Nbar .navmenu.active{
+        left: 0;
+    }
+    .Nbar .navmenu li {
+        display: block;
+    }
+    .Nbar .navmenu li a{
+        display: inline-block;
+        margin: 25px 0;
+        font-size: 30px;
+    }
+    .HPage .HPGContent .T2{
+        font-size: 70px;
+    }
+    .HPage .HPGContent .T3{
+        font-size: 35px;
+    }
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 450px;
+    height: 300px;
+    border: 1px solid #1f1f1f;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden; /* Safari */
+backface-visibility: hidden;
+}
+
+.h{
+    font-size: 35px;
+    padding-top: 10px;
+} 
+
+.flip-card-front {
+background-color: #1f1f1f;
+color: rgb(255, 255, 255);
+}
+
+.flip-card-back {
+background-color: #00eeff;
+color: rgb(0, 0, 0);
+transform: rotateY(180deg);
+}
+
+.td1{
+padding-top: 100px;
+padding-left: px;
+}
+
+.Text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.td2{
+        padding-top: 100px;
+        padding-left: 100px;
+}
+
+.img1{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ContactMe .CContent h3{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+input[type=text], input[type=email], select, textarea{
+    width:100%; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+background-color: #1f1f1f;
+color: rgb(255, 255, 255);
+padding: 12px 20px;
+border: white;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #00eeff;
+color: #141414;
+}
+
